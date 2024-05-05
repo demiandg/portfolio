@@ -1,0 +1,317 @@
+body{
+
+    font-family: 'poppins';
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background: url(Imagenes/fondo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.contenedor
+{
+    max-width: 1980px;
+    width: 90%;
+    margin: auto;
+}
+
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_menu 
+{
+    display: flex;
+    list-style: none;    
+}
+
+li
+{
+    margin-right: 30px;
+
+    .item_seleccion{
+        background-color: #000090;
+    }
+    
+}
+
+
+li a:hover,
+li a.active {
+    background: #000090;
+    transition: 1s;
+}
+
+p{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 250px;
+    color: white;
+}
+
+h1{
+   font-size: 50px; 
+   margin: 0;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-bottom: 0%;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: snow;
+    background-color: #2fcdcd;
+    padding: 10px 20px 10px 20px;
+}
+
+
+.subfondo
+{
+    height: 100vh;
+    background-image: url(./Imagenes/fondo2.jpg);
+    background-size: cover;
+
+}
+
+
+.sobremi_div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    margin-top: 150px;
+
+    p {
+        font-size: 22px;
+        font-weight: bold;
+        text-align: justify;
+        width: 50%;
+        margin-bottom: 0%;
+    }
+
+    .sobremi_foto {
+        border-radius: 20%;
+        width: 300px;
+        justify-content: space-around;
+    }
+
+   
+}
+
+.tabla_apt
+{
+    margin-top: 100px;
+    display: grid;
+    place-items: center;
+}
+
+tbody{
+    min-height: 100%;
+}
+
+.tabla_cursos{
+
+    margin-top: 100px;
+    display: grid;
+    
+    place-items: center; 
+
+    
+  
+
+    td:hover {
+        h3{
+            font-size: 0px;
+        }
+    }
+
+    a:hover {
+        width: 400px;
+        height: 200px;
+        padding: 3px;
+        margin: 0;
+        border: 3px solid;
+        font-size: 0;       
+    }
+
+    .analistac
+    {
+        height: 100px;
+        width: 150px;
+        display: flex;
+        background-image: url(./Imagenes/Cursos/Analista\ Contable.jpg);
+        background-size: 100% 100%;
+        font-size: 0;
+    }
+
+    .disenioweb
+    {
+        height: 100px;
+        width: 150px;
+        margin: 0%;
+        display: flex;
+        background-image: url(./Imagenes/Cursos/Diseño\ web.png);
+        background-size: 100% 100%;
+        font-size: 0;
+    }
+
+    .sql
+    {
+        height: 100px;
+        width: 150px;
+        margin: 0%;
+        display: flex;
+        background-image: url(./Imagenes/Cursos/SQL.png);
+        background-size: 100% 100%;
+        font-size: 0;
+    }
+
+    .iva
+    {
+        height: 100px;
+        width: 150px;
+        margin: 0%;
+        display: flex;
+        background-image: url(./Imagenes/Cursos/Taller\ practico\ de\ IVA.jpg);
+        background-size: 100% 100%;
+        font-size: 0;
+    }
+
+    .inglesi
+    {
+        height: 100px;
+        width: 150px;
+        margin: 0%;
+        display: flex;
+        background-image: url(./Imagenes/Cursos/Ingles\ I.jpg);
+        background-size: 100% 100%;
+        font-size: 0;
+    }
+
+    .inglesii
+    {
+        height: 100px;
+        width: 150px;
+        margin: 0%;
+        display: flex;
+        background-image: url(./Imagenes/Cursos/Ingles\ II.jpg);
+        background-size: 100% 100%;
+        font-size: 0;
+    }
+  
+    .excelb
+    {
+        height: 100px;
+        width: 150px;
+        margin: 0%;
+        display: flex;
+        background-image: url(./Imagenes/Cursos/IAC\ -\ Excel\ Basico\ e\ Intermedio.jpg);
+        background-size: 100% 100%;
+        font-size: 0;
+    }
+
+    .excela
+    {
+        height: 100px;
+        width: 150px;
+        margin: 0%;
+        display: flex;
+        background-image: url(./Imagenes/Cursos/IAC\ -\ Excel\ Avanzado.jpg);
+        background-size: 100% 100%;
+        font-size: 0;
+    }
+
+    .excelp
+    {
+        height: 100px;
+        width: 150px;
+        margin: 0%;
+        display: flex;
+        background-image: url(./Imagenes/Cursos/Excel\ -\ Power\ BI.jpg);
+        background-size: 100% 100%;
+        font-size: 0;
+    }
+
+    .disenio
+    {
+        height: 100px;
+        width: 150px;
+        margin: 0%;
+        display: flex;
+        background-image: url(./Imagenes/Cursos/Diseño\ grafico\ digital.jpg);
+        background-size: 100% 100%;
+        font-size: 0;
+    }
+
+    .data_ana
+    {
+        height: 100px;
+        width: 150px;
+        margin: 0%;
+        display: flex;
+        background-image: url(./Imagenes/Cursos/Data\ Analytics.png);
+        background-size: 100% 100%;
+        font-size: 0;
+    }
+
+    .con_ban
+    {
+        height: 100px;
+        width: 150px;
+        margin: 0%;
+        display: flex;
+        background-image: url(./Imagenes/Cursos/Conciliación\ Bancaria.jpg);
+        background-size: 100% 100%;
+        font-size: 0;
+    }
+
+    h3
+    {
+    font-size: 20px;
+    text-align: center;
+      
+    }
+}
+
+
+.contacto {
+    margin-top: 100px;
+    background-size: cover;
+   
+    .formulario{
+  
+        text-align: center;      
+    }
+}
+
+
+
+.volver
+{
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+
+
+
